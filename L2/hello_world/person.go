@@ -6,5 +6,5 @@ type person struct {
 }
 
 func (p person) fullName() string {
-	return
+	return p.firstName + p.lasttName
 }

@@ -1,17 +1,15 @@
 package main
 
 import (
-	"fmt"kj
-
-	"rsc.io/quote"
+	"fmt"
 )
 
 const PI = 3.14
 const C = 1
 
 func main() {
-    person1 := person{"t","p"}
-    fmt.Println(person1.fullName())
+	person1 := person{"aditya ", "illur"}
+	fmt.Println("Person's full name:", person1.fullName())
 
 	// fmt.Println(quote.Go())
 	// power := 9000
@@ -30,7 +28,3 @@ func main() {
 // func num(a, b int) (c int, d int) {
 // 	return a, b
 // }
-
-func (p person) fullName {
-    t + p
-}

@@ -11,6 +11,8 @@ func main() {
 	person1 := person{"aditya ", "illur"}
 	fmt.Println("Person's full name:", person1.fullName())
 
+	fb()
+
 	// fmt.Println(quote.Go())
 	// power := 9000
 	// fmt.Printf("its over %d", power)
